@@ -9,5 +9,8 @@
     "fs-extra": "^7.0.0",
     "superagent": "^3.8.3"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "bin": {
+    "bad": "./src/cli.js"
+  }
 }
