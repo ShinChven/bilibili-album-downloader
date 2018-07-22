@@ -52,7 +52,8 @@ let download = (albumData, outputDir = config.getDownloadDir()) => {
         let username = albumData.user.name;
         let doc_id = albumData.item.doc_id;
         let albumName = albumData.item.title;
-        let albumDir = outputDir + username + '_' + uid + '/' + albumName + '_' + doc_id + '/';
+        let file = (username + '_' + uid + '/' + albumName + '_' + doc_id + '/').replace(':', '_').replace('：','_');
+        let albumDir = outputDir + file;
 
         // ensure dir and write data
         let dataFile = albumDir + '.data.json';
