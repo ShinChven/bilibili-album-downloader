@@ -51,8 +51,11 @@ let getDefaultDir = () => {
 let download = (albumData, outputDir = getDefaultDir()) => {
     if (albumData.item) {
         // make output path
+        let uid = albumData.user.uid;
+        let username = albumData.user.name;
         let doc_id = albumData.item.doc_id;
-        let albumDir = outputDir + doc_id + '/';
+        let albumName = albumData.item.title;
+        let albumDir = outputDir + uid + '_' + username + '/' + doc_id + '_' + albumName + '/';
 
         // ensure dir and write data
         return fs.outputFile(albumDir + '.data.json', JSON.stringify(albumData, 0, 3))
