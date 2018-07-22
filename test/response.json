@@ -1,0 +1,127 @@
+{
+    "code": 0,
+    "msg": "success",
+    "message": "success",
+    "data": {
+        "user": {
+            "uid": 88128280,
+            "head_url": "https://i2.hdslb.com/bfs/face/8d388095efac3a9a90220fbba9ff5607e52659db.jpg",
+            "name": "詩羽Sayoka",
+            "vip": {
+                "vipType": 2,
+                "vipDueDate": 1554652800000,
+                "dueRemark": "",
+                "accessStatus": 0,
+                "vipStatus": 1,
+                "vipStatusWarn": ""
+            },
+            "upload_count": 97
+        },
+        "item": {
+            "biz": 2,
+            "doc_id": 5564016,
+            "poster_uid": 88128280,
+            "category": "cos",
+            "type": 0,
+            "title": "【腐团Ciel】 水着Saber",
+            "tags": [{
+                "tag": "Saber",
+                "type": 4,
+                "category": "cos",
+                "text": "Saber",
+                "name": "Saber"
+            }, {
+                "tag": "fate",
+                "type": 4,
+                "category": "cos",
+                "text": "fate",
+                "name": "fate"
+            }, {
+                "tag": "水着",
+                "type": 4,
+                "category": "cos",
+                "text": "水着",
+                "name": "水着"
+            }, {
+                "tag": "COS",
+                "type": 3,
+                "category": "cos",
+                "text": "COS",
+                "name": "COS"
+            }, {
+                "tag": "腐团",
+                "type": 3,
+                "category": "cos",
+                "text": "腐团",
+                "name": "腐团"
+            }],
+            "pictures": [{
+                "img_src": "https://i0.hdslb.com/bfs/album/35b6af3cb8e807aa4fdb514bf52c163f5d72c207.jpg",
+                "img_width": 2999,
+                "img_height": 2000,
+                "img_size": 454
+            }, {
+                "img_src": "https://i0.hdslb.com/bfs/album/9516753464ae5b1eea10d7fb5136fc2cb30a51ff.jpg",
+                "img_width": 2000,
+                "img_height": 2998,
+                "img_size": 334
+            }, {
+                "img_src": "https://i0.hdslb.com/bfs/album/256dfdb227929b920d76406d71cc3fd4c5588de5.jpg",
+                "img_width": 2000,
+                "img_height": 6000,
+                "img_size": 1541
+            }, {
+                "img_src": "https://i0.hdslb.com/bfs/album/95fe7dd65c40d27c3da5a30ff1d2d4466277d6bc.jpg",
+                "img_width": 2000,
+                "img_height": 3000,
+                "img_size": 346
+            }, {
+                "img_src": "https://i0.hdslb.com/bfs/album/66b61f3528ec5adedebdcfa0cca184d927b1a18b.jpg",
+                "img_width": 3000,
+                "img_height": 2001,
+                "img_size": 397
+            }, {
+                "img_src": "https://i0.hdslb.com/bfs/album/6f780bb0df41114f04b7e9dc82c3fe0a39e40d77.jpg",
+                "img_width": 2000,
+                "img_height": 3000,
+                "img_size": 352
+            }, {
+                "img_src": "https://i0.hdslb.com/bfs/album/1dbe54db655ee1a09ea72dca978aca1909caa1ff.jpg",
+                "img_width": 1930,
+                "img_height": 8685,
+                "img_size": 1212
+            }, {
+                "img_src": "https://i0.hdslb.com/bfs/album/5d1b5a7538e2301b8d023519588a2d765257ea97.jpg",
+                "img_width": 2000,
+                "img_height": 3000,
+                "img_size": 370
+            }, {
+                "img_src": "https://i0.hdslb.com/bfs/album/fdc0c769a2f811ca5966eebdde0076b6f2957798.jpg",
+                "img_width": 2000,
+                "img_height": 3000,
+                "img_size": 257
+            }],
+            "source": null,
+            "upload_time": "2018-07-13 23:36:56",
+            "upload_timestamp": 1531496216,
+            "upload_time_text": "8天前",
+            "description": "#COS##Fate##Saber##水着##阿尔托利亚#\n\nSaber Alter :@腐团Ciel \nPHX：@坂道道 \n\n夏天！！",
+            "role": null,
+            "settings": {
+                "copy_forbidden": 3
+            },
+            "already_collected": 0,
+            "already_liked": 0,
+            "user_status": 0,
+            "at_control": "",
+            "extension": "",
+            "view_count": 51046,
+            "like_count": 4,
+            "collect_count": 536,
+            "verify_status": 1,
+            "already_voted": 0,
+            "vote_count": 1401,
+            "comment_count": 110
+        }
+    }
+}
