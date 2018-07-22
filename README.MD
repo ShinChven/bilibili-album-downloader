@@ -1,6 +1,6 @@
 # BiliBili 相簿下载器
 
-我喜欢也小姐姐们的照片。
+😈🤩😍
 
 ## 安装
 
@@ -9,6 +9,15 @@ $ npm link
 ```
 
 ## 使用
+
 ```bash
 $ bad https://h.bilibili.com/5564016
+```
+
+## 配置下载目录
+
+```bash
+$ bad-config set <dir>
+$ bad-config unset
+$ bad-config show
 ```

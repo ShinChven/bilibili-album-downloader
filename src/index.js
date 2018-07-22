@@ -2,7 +2,7 @@ const http = require('superagent');
 const Promise = require('bluebird');
 const dn = require('download');
 const fs = require('fs-extra');
-const path = require('path');
+const config = require('./config');
 
 /**
  * get album data from api
@@ -44,11 +44,8 @@ let get = (url) => {
 
 };
 
-let getDefaultDir = () => {
-    return path.join(__dirname, '../downloads/');
-};
 
-let download = (albumData, outputDir = getDefaultDir()) => {
+let download = (albumData, outputDir = config.getDownloadDir()) => {
     if (albumData.item) {
         // make output path
         let uid = albumData.user.uid;
