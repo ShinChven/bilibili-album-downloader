@@ -55,11 +55,13 @@ let download = (albumData, outputDir = getDefaultDir()) => {
         let username = albumData.user.name;
         let doc_id = albumData.item.doc_id;
         let albumName = albumData.item.title;
-        let albumDir = outputDir + uid + '_' + username + '/' + doc_id + '_' + albumName + '/';
+        let albumDir = outputDir + username + '_' + uid + '/' + albumName + '_' + doc_id + '/';
 
         // ensure dir and write data
-        return fs.outputFile(albumDir + '.data.json', JSON.stringify(albumData, 0, 3))
+        let dataFile = albumDir + '.data.json';
+        return fs.outputFile(dataFile, JSON.stringify(albumData, 0, 3))
             .then(() => {
+                console.info('data-saved => ' + dataFile);
                 // run download tasks
                 downloadTasks = [];
                 albumData.item.pictures.map(picture => {

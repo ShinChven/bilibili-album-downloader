@@ -5,7 +5,6 @@
 ## 安装
 
 ```bash
-$ npm install
 $ npm link
 ```
 

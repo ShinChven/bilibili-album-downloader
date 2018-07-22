@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "commander": "^2.16.0",
     "download": "^7.1.0",
     "fs-extra": "^7.0.0",
     "superagent": "^3.8.3"
